@@ -1,9 +1,9 @@
 {
   "name": "presidium-template",
-  "version": "0.0.1",
-  "description": "A base template for a Presidium site.",
+  "version": "0.0.40",
+  "description": "Base template for a Presidium site.",
   "license": "Apache-2.0",
-  "homepage": "https://spandigital.github.io/presidium/",
+  "homepage": "http://presidium.spandigital.net/",
   "authors": [
     {
       "name": "SPAN Digital",

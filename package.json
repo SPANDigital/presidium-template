@@ -1,0 +1,27 @@
+{
+  "name": "presidium-template",
+  "version": "0.0.1",
+  "description": "A base template for a Presidium site.",
+  "license": "Apache-2.0",
+  "homepage": "https://spandigital.github.io/presidium/",
+  "authors": [
+    {
+      "name": "SPAN Digital",
+      "email": "presidium@spandigital.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SPANDigital/presidium-template"
+  },
+  "scripts": {
+    "clean": "presidium clean",
+    "install": "presidium install",
+    "build": "presidium build",
+    "start": "presidium start",
+    "gh-pages": "presidium gh-pages"
+  },
+  "devDependencies": {
+    "presidium-core" : "^0.0.40"
+  }
+}

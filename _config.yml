@@ -63,6 +63,7 @@ sections:
   - title: "Getting Started"
     url: "/getting-started/"
     collection: getting-started
+    collapsed: true
 
   - title: "Best Practices"
     url: "/best-practices/"

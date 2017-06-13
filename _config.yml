@@ -102,5 +102,8 @@ sections:
 #    - "Developer"
 #    - "Tester"
 
+# Optional support for versioning.
+versioned: false
+
 sass:
     sass_dir: media/css/_sass

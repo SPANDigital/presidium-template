@@ -1,6 +1,6 @@
 {
   "name": "presidium-template",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Base template for a Presidium site.",
   "license": "Apache-2.0",
   "homepage": "http://presidium.spandigital.net/",
@@ -23,6 +23,6 @@
     "gh-pages": "presidium gh-pages"
   },
   "devDependencies": {
-    "presidium-core": "^0.1.6"
+    "presidium-core": "^0.1.7"
   }
 }

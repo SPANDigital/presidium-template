@@ -10,9 +10,9 @@
 #    - authors-url: base url for article authors
 # NOTE: If you have a baseurl be sure to append it to any static content path e.g.: ${baseurl}/media/images/logo.png
 name: Presidium Template
-#baseurl:
+#baseurl: /mysite
 footer: Template Footer
-logo: media/images/logo.png
+logo: /media/images/logo.png
 show:
   status: true
   author: true

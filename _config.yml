@@ -4,11 +4,11 @@
 # - name: Site name
 # _ baseurl: Optional URL to use if documentation is hosted in a subdirectory `domain.com/{baseurl}`
 # - footer: Footer copy
-# - logo: Menu bar logo
+# - logo: Menu bar logo.
 # - show: Hide or show article components. Defaults to true
 # - external: Links to external sources
 #    - authors-url: base url for article authors
-
+# NOTE: If you have a baseurl be sure to append it to any static content path e.g.: ${baseurl}/media/images/logo.png
 name: Presidium Template
 #baseurl:
 footer: Template Footer

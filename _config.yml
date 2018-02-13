@@ -63,7 +63,6 @@ sections:
   - title: "Getting Started"
     url: "/getting-started/"
     collection: getting-started
-    collapsed: true
 
   - title: "Best Practices"
     url: "/best-practices/"
@@ -102,7 +101,7 @@ sections:
 #    - "Developer"
 #    - "Tester"
 
-# Optional support for versioning.
+# Optional support for versioned docunentation.
 versioned: false
 
 sass:

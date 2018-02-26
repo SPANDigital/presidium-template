@@ -19,6 +19,9 @@ show:
 external:
   authors-url: https://github.com/
 
+# Optional cname record to export with your site (for hosting on github pages)
+# cname:
+
 #
 # Jekyll collections.
 #

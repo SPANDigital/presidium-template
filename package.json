@@ -23,7 +23,7 @@
     "gh-pages": "presidium gh-pages"
   },
   "devDependencies": {
-    "presidium-core": "^0.1.42"
+    "presidium-core": "^0.1.48"
   },
   "dependencies": {}
 }

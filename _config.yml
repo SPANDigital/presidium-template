@@ -12,7 +12,13 @@
 name: Presidium Template
 #baseurl: /mysite
 footer: Template Footer
+# description of the documentation site.
+description: ''
+# if baseurl is defined then
+# logo: ${baseurl}/media/images/logo.png
+
 logo: /media/images/logo.png
+
 show:
   status: true
   author: true

@@ -18,7 +18,6 @@ description: ''
 # logo: ${baseurl}/media/images/logo.png
 
 logo: /media/images/logo.png
-
 show:
   status: true
   author: true

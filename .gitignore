@@ -1,6 +1,9 @@
+.idea/
+.vscode/
+content/
+public/
+resources/
+config.yml
+static/
+main
 node_modules
-npm-debug.log
-dist
-.jekyll
-*.iml
-.idea

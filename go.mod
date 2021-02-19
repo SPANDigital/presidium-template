@@ -1,4 +1,4 @@
-module github.com/spandigital/template
+module github.com/SPANDigital/presidium-template
 
 go 1.15
 

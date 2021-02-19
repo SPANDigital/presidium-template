@@ -1,7 +1,7 @@
 ---
 title: A Tool
 author: author
-url: tools/tool
 slug: tool
+url: tools/tool
 ---
 Content...

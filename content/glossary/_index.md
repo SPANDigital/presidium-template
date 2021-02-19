@@ -1,5 +1,5 @@
 ---
+title: Glossary
 slug: glossary
 url: glossary
-title: Glossary
 ---

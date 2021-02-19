@@ -1,29 +1,30 @@
 {
   "name": "presidium-template",
-  "version": "0.1.41",
+  "version": "1.0.0",
   "description": "Base template for a Presidium site.",
-  "license": "Apache-2.0",
-  "homepage": "http://presidium.spandigital.net/",
-  "authors": [
-    {
-      "name": "SPAN Digital",
-      "email": "presidium@spandigital.com"
-    }
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/SPANDigital/presidium-template"
-  },
+  "main": "index.js",
   "scripts": {
-    "clean": "presidium clean",
-    "install": "presidium install",
-    "build": "presidium build",
-    "start": "presidium start",
-    "validate": "presidium validate",
-    "gh-pages": "presidium gh-pages"
+    "start": "hugo serve"
   },
+  "author": {
+    "name": "SPAN Digital",
+    "email": "presidium@spandigital.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SPANDigital/presidium-hugo/issues"
+  },
+  "homepage": "https://github.com/SPANDigital/presidium-hugo#readme",
   "devDependencies": {
-    "presidium-core": "^0.1.49"
-  },
-  "dependencies": {}
+    "axios": "^0.21.1",
+    "classnames": "^2.2.6",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.2.2",
+    "redux": "^4.0.5",
+    "redux-promise": "^0.6.0",
+    "rxjs": "^6.6.3",
+    "rxjs-compat": "^6.6.3"
+  }
 }

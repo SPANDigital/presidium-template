@@ -1,5 +1,7 @@
 ---
 title: "Hello Presidium!"
+slug: hello
+url: //hello
 ---
 
 This template project provides a basic structure to start your presidium documentation.

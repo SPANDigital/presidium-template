@@ -1,4 +1,78 @@
-baseURL : "http://example.org/"
-languageCode : "en-us"
-title : "Presidium Template"
+# RSS Language Codes
+languageCode: en-us
+title: Presidium Template
 theme : "presidium-theme-website"
+copyright: Template Footer
+# https://gohugo.io/getting-started/configuration/#pluralizelisttitles
+pluralizelisttitles: false 
+markup:
+  goldmark:
+    renderer:
+      Unsafe: true
+params:
+  audience: ""
+  scope: ""
+menu:
+  main:
+  - identifier: Overview
+    name: Overview
+    url: /
+    weight: 1
+  - identifier: Key Concepts
+    name: Key Concepts
+    url: /key-concepts/
+    weight: 2
+  - identifier: Prerequisites
+    name: Prerequisites
+    url: /prerequisites/
+    weight: 3
+  - identifier: Getting Started
+    name: Getting Started
+    url: /getting-started/
+    weight: 4
+  - identifier: Best Practices
+    name: Best Practices
+    url: /best-practices/
+    weight: 5
+  - identifier: Reference
+    name: Reference
+    url: /reference/
+    weight: 6
+  - identifier: Glossary
+    name: Glossary
+    url: /glossary/
+    weight: 7
+  - identifier: Recipes
+    name: Recipes
+    url: /recipes/
+    weight: 8
+  - identifier: Tools
+    name: Tools
+    url: /tools/
+    weight: 9
+  - identifier: Updates
+    name: Updates
+    url: /updates/
+    weight: 10
+outputFormats:
+  MenuIndex:
+    baseName: menu
+    mediaType: application/json
+  SearchMap:
+    baseName: searchmap
+    mediaType: application/json
+outputs:
+  home:
+  - HTML
+  - RSS
+  - MenuIndex
+  - SearchMap
+enableInlineShortcodes: true
+frontmatter:
+  lastmod:
+  - lastmod
+  - :fileModTime
+  - :default
+
+
+

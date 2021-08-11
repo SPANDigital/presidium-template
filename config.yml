@@ -1,7 +1,7 @@
 # RSS Language Codes
 languageCode: en-us
 title: Presidium Template
-theme : "presidium-theme-website"
+# theme : "presidium-theme-website"
 copyright: Template Footer
 # https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 pluralizelisttitles: false 
@@ -68,6 +68,12 @@ outputs:
   - MenuIndex
   - SearchMap
 enableInlineShortcodes: true
+module:
+  imports:
+  - path: github.com/spandigital/presidium-theme-website
+    disabled: false
+  - path: github.com/spandigital/presidium-theme-pdf
+    disabled: true
 frontmatter:
   lastmod:
   - lastmod

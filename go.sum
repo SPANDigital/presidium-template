@@ -2,3 +2,5 @@ github.com/spandigital/presidium-theme-pdf v0.0.0-20201119081406-58ec420bb04c h1
 github.com/spandigital/presidium-theme-pdf v0.0.0-20201119081406-58ec420bb04c/go.mod h1:wM/l5y9niSfBtj53PGsQEBOLhDzdBykRGyVse3VVkqY=
 github.com/spandigital/presidium-theme-website v1.0.4 h1:+XAMy9A7wdIOu6ExJAmx+wXPbOT4cZklueuwxGd2iDY=
 github.com/spandigital/presidium-theme-website v1.0.4/go.mod h1:j3bm9aRciRtJxAcI/x57I0iWZqXOjFYYsAxNaSagdQY=
+github.com/spandigital/presidium-theme-website v1.0.5 h1:dp2I4IrteqBAudARQ4O8NbG2yBDqNhrfibf7/DzvEtc=
+github.com/spandigital/presidium-theme-website v1.0.5/go.mod h1:j3bm9aRciRtJxAcI/x57I0iWZqXOjFYYsAxNaSagdQY=

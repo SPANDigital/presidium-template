@@ -1,6 +1,2 @@
 node_modules
-npm-debug.log
-dist
-.jekyll
-*.iml
-.idea
+.DS_store
